@@ -1,0 +1,7 @@
+Google>C:\Program Files\Google\Chrome\Application\chrome.exe
+GTA VC>C:\Games\Grand Theft Auto Vice City
+Sodeloadly>C:\Users\Sk1mmer\AppData\Local\Sideloadly\sideloadly.exe
+Sideloadly>C:\Users\Sk1mmer\AppData\Local\Sideloadly\sideloadly.exe
+Bandicam>C:\Program Files\Bandicam\bdcam.exe
+Readme>C:\Users\Sk1mmer\Desktop\README.md
+bugaga>C:\Users\Sk1mmer\Desktop

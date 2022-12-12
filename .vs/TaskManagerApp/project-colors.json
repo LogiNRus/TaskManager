@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6f799976-3d39-4511-b206-1a8905ce2550": {
+      "ProjectGuid": "6f799976-3d39-4511-b206-1a8905ce2550",
+      "DisplayName": "ConsoleApi",
+      "ColorIndex": 0
+    },
+    "c0fc0840-99e1-4af5-86b3-8b9654b4ef44": {
+      "ProjectGuid": "c0fc0840-99e1-4af5-86b3-8b9654b4ef44",
+      "DisplayName": "TaskManagerLib",
+      "ColorIndex": 1
+    },
+    "3c9bd527-3d70-49f5-aab4-d4d5f211f591": {
+      "ProjectGuid": "3c9bd527-3d70-49f5-aab4-d4d5f211f591",
+      "DisplayName": "WpfApi",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

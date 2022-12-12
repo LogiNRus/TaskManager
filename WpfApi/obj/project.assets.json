@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ConsoleApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TaskManagerLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApi.dll": {}
+        }
+      },
+      "TaskManagerLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskManagerLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagerLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApi/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApi/ConsoleApi.csproj",
+      "msbuildProject": "../ConsoleApi/ConsoleApi.csproj"
+    },
+    "TaskManagerLib/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagerLib/TaskManagerLib.csproj",
+      "msbuildProject": "../TaskManagerLib/TaskManagerLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ConsoleApi >= 1.0.0",
+      "TaskManagerLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\РАБОЧИЙ СТОЛ\\проект\\TaskManagerApp\\WpfApi\\WpfApi.csproj",
+      "projectName": "WpfApi",
+      "projectPath": "D:\\РАБОЧИЙ СТОЛ\\проект\\TaskManagerApp\\WpfApi\\WpfApi.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\РАБОЧИЙ СТОЛ\\проект\\TaskManagerApp\\WpfApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\РАБОЧИЙ СТОЛ\\проект\\TaskManagerApp\\ConsoleApi\\ConsoleApi.csproj": {
+              "projectPath": "D:\\РАБОЧИЙ СТОЛ\\проект\\TaskManagerApp\\ConsoleApi\\ConsoleApi.csproj"
+            },
+            "D:\\РАБОЧИЙ СТОЛ\\проект\\TaskManagerApp\\TaskManagerLib\\TaskManagerLib.csproj": {
+              "projectPath": "D:\\РАБОЧИЙ СТОЛ\\проект\\TaskManagerApp\\TaskManagerLib\\TaskManagerLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

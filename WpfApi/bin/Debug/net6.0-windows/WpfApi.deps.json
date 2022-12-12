@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WpfApi/1.0.0": {
+        "dependencies": {
+          "ConsoleApi": "1.0.0",
+          "TaskManagerLib": "1.0.0"
+        },
+        "runtime": {
+          "WpfApi.dll": {}
+        }
+      },
+      "ConsoleApi/1.0.0": {
+        "dependencies": {
+          "TaskManagerLib": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApi.dll": {}
+        }
+      },
+      "TaskManagerLib/1.0.0": {
+        "runtime": {
+          "TaskManagerLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskManagerLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
